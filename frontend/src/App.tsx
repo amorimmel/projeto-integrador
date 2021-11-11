@@ -44,11 +44,12 @@ function App() {
 
               <Route exact path='/'>
                 <Home />
+                <Footer/>
               </Route>
 
               <Route path='/home'>
                 <Home />
-        
+                <Footer/>
               </Route>
 
 
@@ -64,6 +65,7 @@ function App() {
 
               <Route exact path='/produtos'>
                 <Produtos />
+                <Footer/>
                
               </Route>
 
