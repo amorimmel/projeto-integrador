@@ -1,5 +1,9 @@
 interface Categoria {
-
-}
-
-export default Categoria;
+    id: number;
+    nome: string;
+    descricao: string;
+    palavraChave: string;
+    
+    }
+    
+    export default Categoria;
